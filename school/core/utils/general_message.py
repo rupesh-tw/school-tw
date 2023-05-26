@@ -1,0 +1,7 @@
+CREATED = "Created Successfully!"
+UPDATED = "Updated Successfully!"
+OOPS = "Oops, Something Went Wrong!"
+DELETE = "Deleted Successfully!"
+SUCCESSFUL = "Successfull!"
+RETRIEVED ="Retrieved Successfully!"
+RECORD_NOT_FOUND = "Record Not Found!"
