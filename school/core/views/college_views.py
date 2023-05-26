@@ -12,7 +12,7 @@ def college_create_view(request, format=None):
     return Response(result.data, status=result.data["code"])
 
 @api_view(['GET'])
-def college_get_view(request, pk, format=None):
+def college_get_view(request, pk=None, format=None):
     result = college_service.get(request, pk, format=None)
     return Response(result.data, status=result.data["code"])
 

@@ -16,4 +16,11 @@ urlpatterns = [
     path('teacher-get/<int:pk>/', views.teacher_get_view,  name='teacher-get'),
     path('teacher-delete/<int:pk>/', views.teacher_delete_view,  name='teacher-delete'),
     path('teacher-list/', views.teacher_list_view,  name='teacher-list'),
+
+    #student
+    path('student-create/', views.student_create_view,  name='student-create'),
+    path('student-update/<int:pk>/', views.student_update_view,  name='student-update'),
+    path('student-get/<int:pk>/', views.student_get_view,  name='student-get'),
+    path('student-delete/<int:pk>/', views.student_delete_view,  name='student-delete'),
+    path('student-list/', views.student_list_view,  name='student-list'),
 ]

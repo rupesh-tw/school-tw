@@ -23,3 +23,10 @@ class CollegeBaseService(ABC):
         Abstract method to get college.
         """
         pass
+
+    @abstractmethod
+    def delete(self):
+        """ 
+        Abstract method to delete college.
+        """
+        pass
